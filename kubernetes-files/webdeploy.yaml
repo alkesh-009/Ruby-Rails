@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: rails-app
-        image: koushikreddy24/rubyrailsapp:latest
+        image: alkesh009/rubyrailsapp:latest
         env:
         - name: DB_HOST
           value: "postgres"
